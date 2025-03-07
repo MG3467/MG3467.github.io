@@ -1,16 +1,20 @@
 :root
 {
+    --midnightpurp: RGB(46, 26, 71);
+    --midnightblue: RGB(25, 25, 112);
+    --sunriseorange: #E67451;
     --uncblue: RGB(1,45,91);
     --uncgold: RGB(254,189,54);
     --uncgray: RGB(235,235,235);
-    color: var(--uncblue);
-    background-color:var(--uncgray);
+    color: var(--midnightpurp);
+    background-color:var(--midnightblue);
     text-align: center;
+
 }
 
 .title
 {
-    color: var(--uncgold);
+    color: var(--sunriseorange);
 }
 
 h1
