@@ -6,8 +6,8 @@
     --uncblue: RGB(1,45,91);
     --uncgold: RGB(254,189,54);
     --uncgray: RGB(235,235,235);
-    color: var(--midnightpurp);
-    background-color:var(--midnightblue);
+    color: var(--sunriseorange);
+    background-color:var(--midnightpurp);
     text-align: center;
 
 }
@@ -21,7 +21,7 @@ h1
 {
     font-size: 48pt;
     text-decoration: underline;
-    color: gold;
+    color: Var(--sunriseorange);
 }
 
 img
