@@ -1,5 +1,5 @@
-@font-face {font-family: Departuremono; src: url('fonts/DepartureMono/DepartureMonoNerdFont-Regular.otf'); }
-@font-face {font-family: Bigblueterm; src: url('fonts/BigBlueTerminal/BigBlueTerm437NerdFontMono-Regular.ttf'); }
+@font-face {font-family: Departuremono; src: url('./fonts/DepartureMono/DepartureMonoNerdFont-Regular.otf'); }
+@font-face {font-family: Bigblueterm; src: url('./fonts/BigBlueTerminal/BigBlueTerm437NerdFontMono-Regular.ttf'); }
 
 
 :root{
@@ -8,14 +8,14 @@
 }
 
 h1, h2, h3 {
-    font: Bigblueterm, mono; 
+    font-family: Bigblueterm; 
     text-align: center;
 
 
 }
 
 p {
-
+    font-family: Departuremono; 
 
 }
 
