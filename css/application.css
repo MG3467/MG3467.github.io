@@ -1,5 +1,5 @@
-@font-face {font-family: Departuremono; src: url('DepartureMonoNerdFont-Regular.otf'); }
-@font-face {font-family: Bigblueterm; src: url('BigBlueTerm437NerdFontMono-Regular.ttf'); }
+@font-face {font-family: Departuremono; src: url("fonts/DepartureMonoNerdFont-Regular.otf") }
+@font-face {font-family: Bigblueterm; src: url("fonts/BigBlueTerm437NerdFontMono-Regular.ttf") }
 
 
 :root{
