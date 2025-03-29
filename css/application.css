@@ -3,25 +3,25 @@
 
 
 :root{
-    Background-color: #0B32B0;
+    Background-color: #4CAEFF;
     
 }
 
 h1, h2, h3 {
     font-family: Bigblueterm; 
     text-align: center;
-    color: #222222
+    color: #222222;
 
 }
 
 p {
     font-family: Departuremono; 
-    color: #0B32B0;
+    color: #179CF9;
 }
 
 nav {
     font-family: Departuremono;
-    color: #4CAEFF;
+    color: #0AE4EE;
 }
 
 ul{
