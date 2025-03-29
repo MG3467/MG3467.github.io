@@ -3,8 +3,8 @@
 
 
 :root{
-    Background-color: #4CAEFF;
-    
+    Background-color: #0B32B0;
+    font-family: Departuremono;
 }
 
 h1, h2, h3 {
@@ -22,19 +22,25 @@ p {
 nav {
     font-family: Departuremono;
     color: #0AE4EE;
+    text-algin: center;
+    padding: 100vh;
+    border: 50px;
 }
 
 ul{
-
+    color: #000000;
+    padding: 10px;
+    background-color: black;
+    border: 100px;
 }
 
 a {
-
+    color: #179CF9;
 }
 
 a:visited{
     font-family: Departuremono;
-    color: #179CF9;
+    color: #222222;
 }
 
 
