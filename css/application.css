@@ -23,10 +23,29 @@ nav {
     font-family: Departuremono;
     color: #0AE4EE;
     text-algin: center;
-    padding: 100px;
-    border: 50px;
 }
 
+nav ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    text-align: center;
+    list-style-type:none;
+    font-size: 30px;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
 ul {
     display: block;
     list-style-type: disc;
@@ -37,11 +56,16 @@ ul {
     padding-inline-start: 40px;
     unicode-bidi: isolate;
 }
+#linkslist{
+    text-align: center;
+    list-style-type:none;
+}
 #lumonList{
-    color: #000000;
+    color: #FFFFFF;
     padding: 10px;
     background-color: black;
     border: 100px;
+    list-style-type:none;
 }
 
 a {
@@ -53,11 +77,36 @@ a:visited{
     color: #222222;
 }
 
+#files, #filecomp{
+    width: 120px;
+    height: 20px;
+}
 
+#scarynums{
+    width: 130px;
+    height: 115px;
+}
 
+section{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.imgwtext {
+    float: right;
+    width: 150px;
+    border: 1px #000000 solid;
+}
 
-
+#Introduction li{
+    list-style-type:none;
+}
+img{
+    width:150px;
+    height: 150px;
+}
 
 
 
