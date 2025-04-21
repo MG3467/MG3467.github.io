@@ -1,41 +1,56 @@
+@font-face {font-family:hack ; src: url("fonts/HackNerdFontMono-Regular.ttf") }
+
 :root
 {
-    --redResume: RGB(255,152,83);
-    --navyBlue: RGB(255,152,83);
-    --darkGrey: RGB(255,152,83);
+    --redResume: #FF3F00; 
+    --navyBlue: #000080;
+    --darkGrey: #6D6D6D;
     color: var(--redResume);
     background-color:var(--darkGrey);
     text-align: center;
-
+    font-family: hack;
 }
+span{
+    color: var(--navyBlue)
+}
+
 
 .header
 {
-    color: var();
+    color: var(--redResume);
+    margin: 5vw;
+    border: 5px solid var(--redResume)
+    
 }
-
+section{
+    border: 5px double var(--navyBlue); 
+    display: block;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: var(--navyBlue)
+0}
 h1
 {
     font-size: 48pt;
-    text-decoration: underline;
-    color: var(--redResume);
+    text-decoration: ;
+    color: var(--navyBlue);
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px ;
 }
 
 img
 {
     margin: auto;
     display: block;
+    width: 150px;
+    height: 200px;
 }
 
-table
-{
-    margin: auto;
-}
-table, th, td{
-	border: 2px solid var(--navyBlue);
-}   
-th {
-
-
-}
 
