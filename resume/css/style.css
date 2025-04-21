@@ -1,0 +1,41 @@
+:root
+{
+    --redResume: RGB(255,152,83);
+    --navyBlue: RGB(255,152,83);
+    --darkGrey: RGB(255,152,83);
+    color: var(--redResume);
+    background-color:var(--darkGrey);
+    text-align: center;
+
+}
+
+.header
+{
+    color: var();
+}
+
+h1
+{
+    font-size: 48pt;
+    text-decoration: underline;
+    color: var(--redResume);
+}
+
+img
+{
+    margin: auto;
+    display: block;
+}
+
+table
+{
+    margin: auto;
+}
+table, th, td{
+	border: 2px solid var(--navyBlue);
+}   
+th {
+
+
+}
+
