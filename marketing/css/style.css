@@ -10,7 +10,7 @@
 
 
 .centered-div {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body, html {
     padding: 0;
 }
 html, body {
-    min-width: 400px;
+    min-width: 20vw;
 }
 body, input, button {
     font-size: 14px;
@@ -55,7 +55,10 @@ body {
 }
 
 
+.top-section .middle-section .footer{
+    width: 20vw;
 
+}
 
 .expermintations-icon{
    width: 1.5rem;
@@ -87,7 +90,7 @@ body {
 }
 
 .google-logo{
-    width: 20rem;
+    width: 10rem;
     height: 6.5rem;
 
 }
